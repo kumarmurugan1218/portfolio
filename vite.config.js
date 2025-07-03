@@ -10,5 +10,5 @@ export default defineConfig({
     fontfamily:{
       'hero-font':'sriracha'
     }
-  }
+  },
 })

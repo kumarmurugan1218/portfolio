@@ -1,5 +1,6 @@
 import React from 'react'
-import { Bars3Icon } from "@heroicons/react/24/solid";
+// ✅ Correct usage
+import { AcademicCapIcon } from "@heroicons/react/24/solid";
 import { useState } from 'react';
 import {Link} from 'react-router-dom'
 
@@ -30,7 +31,7 @@ const Header = () => {
         </nav>}
 
       <button className='block md:hidden' onClick={()=>setMenu(!menu)} >
-        <Bars3Icon className='h-5 w-10 text-white'/>
+        <AcademicCapIcon className='h-5 w-10 text-white'/>
       </button>
     </header>
   )

@@ -28,7 +28,7 @@ header ul li{
    @apply text-slate-600 hover:text-indigo-100 transition-colors duration-500;
 }
 .mobile-nav{
-@apply fixed top-15 left-0 bg-slate-800/50 w-full ;
+@apply fixed top-15 left-0 py-4 bg-slate-600 w-full ;
 }
 .about-content{
   @apply text-justify text-sm mb-3 leading-8 text-slate-400;

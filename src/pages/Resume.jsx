@@ -8,7 +8,7 @@ export const Resume = () => {
         <div className='w-full px-10 md:w-1/2 flex flex-col space-y-5 items-center '>
             <h1 className='heading '>Resume</h1>
             <p className='sub-heading'>you can view my resume download...</p>
-            <a className='btn flex items-center gap-x-3 justify-center' href="file:///C:/Users/Murugan/OneDrive/Desktop/resume.pdf" download ><PiNewspaperClippingLight />download</a>
+            <a className='btn flex items-center gap-x-3 justify-center' href="Murugan.pdf" download ><PiNewspaperClippingLight />download</a>
         </div>
    </section>
   )

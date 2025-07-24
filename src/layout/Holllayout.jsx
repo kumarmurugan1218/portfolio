@@ -9,7 +9,7 @@ const Holllayout = () => {
             <Outlet/>
         </main> 
         <Footer/>  
-            </>
+    </>
   )
 }
 

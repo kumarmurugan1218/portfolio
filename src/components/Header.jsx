@@ -24,7 +24,7 @@ const Header = () => {
         </nav>
 
         {menu&&<nav className='block md:hidden '>
-        <ul onClick={()=>setMenu(!menu)}className='text-white mobile-nav'>
+        <ul onClick={()=>setMenu(!menu)}className='text-white mobile-nav '>
            <li><NavLink className='links-hover' to="/">Home</NavLink></li>
             <li><NavLink className='links-hover' to="/About">About</NavLink></li>
             <li><NavLink className='links-hover' to="/Projects">Projects</NavLink></li>

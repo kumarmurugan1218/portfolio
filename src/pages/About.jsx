@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <section className='min-h-screen w-full flex flex-col gap-y-5 justify-center items-center py-5  gap-x-5 bg-secondary md:flex-row ' id='about'>
         <div className=' px-5 h-1/2 w-full  md:h-screen md:w-1/2 flex justify-center items-center'>
-          <img src={`${import.meta.env.BASE_URL}/my.JPG`} alt="" className=' md:w-1/2 object-cover p-3 shadow-xl rounded bg-white' />
+          <img src={`${import.meta.env.BASE_URL}/profile.jpeg`} alt="" className=' md:w-1/2 object-cover p-3 shadow-xl rounded bg-white' />
         </div>
           <div className=' px-5 md:w-1/2 md:h-1/2  flex flex-col  text-white md:px-20 '>
                 <h1 className='heading text-center'>About me</h1>

@@ -25,8 +25,8 @@ export const Hero = () => {
             </div>
           </div>  
            <div className=' w-full h-screen md:w-1/2 flex justify-center items-center '>
-            <div className='md:mt-15  h-1/2 rounded-full md:h-[600px] md:w-[600px] animate-bounce duration-500 shadow-xl bg-white  p-5 '>
-              <img className='h-full w-full rounded-full mx-auto object-cover '  src={`${import.meta.env.BASE_URL}/my.JPG`} alt="home image" />      
+            <div className='md:mt-15  h-1/2 rounded-full md:h-[600px] md:w-[600px] animate-bounce duration-500 shadow-xl bg-white  p-10 '>
+              <img className='h-full w-full rounded-full mx-auto object-cover '  src={`${import.meta.env.BASE_URL}/profile2.jpeg`} alt="home image" />      
             </div>
              
            </div>
